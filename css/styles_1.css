@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body{
+    height: 130%;
+    /*height: 1214px;*/
+    background-color: #343945;
+    background-image: url("/prototype.2024/images/webColor_pal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+  
+  @font-face {
+    font-family: roboL;
+    src: url(/css/Roboto/Roboto-Light.ttf);
+  }
+  @font-face {
+    font-family: roboB;
+    src: url(/css/Roboto/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: roboBI;
+    src: url(/css/Roboto/Roboto-BoldItalic.ttf);
+  }
+  
+  @font-face {
+    font-family: loraI;
+    src: url(/css/Lora/Lora-Italic.ttf);
+  }
+  @font-face {
+    font-family: loraB;
+    src: url(/css/Lora/Lora-Bold.ttf);
+  }
+  @font-face {
+    font-family: loraBI;
+    src: url(/css/Lora/Lora-SemiBoldItalic.ttf);
+  }
+  @font-face {
+    font-family: loraR;
+    src: url(/css/Lora/Lora-Regular.ttf);
+  }
+  @font-face {
+    font-family: loraM;
+    src: url(/css/Lora/Lora-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: mac;
+    src: url(/css/Marshmallow/Marshmallows\ and\ Chocolate\ -\ TTF.ttf);
+  }
