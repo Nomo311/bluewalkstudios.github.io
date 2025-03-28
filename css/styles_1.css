@@ -70,6 +70,12 @@
     background-color: #1B5BB3;
     opacity: 0.7;
     background-image: url(/images/zoomBlue_pal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     /*background-color: #0E5BC4;
     background-color: #1F6CD5;*/
   }
@@ -85,7 +91,7 @@
   }
 
   header img {
-    max-width: 18%;
+    width: 18%;
     margin-left: 41%;
     margin-bottom: 8%;
   }
@@ -155,6 +161,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;
+    /*flex-wrap: wrap;*/
     justify-content: space-evenly;
     background-color: #232834;
     border-radius: 16px;
@@ -203,6 +210,37 @@
     color: #1F6CD5;
   }
 
+  #div_dend {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /*
+  .social_list {
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+
+  .social_list p {
+    margin-left: 2%;
+    font-size: 18px;
+  }
+  */
+
+  .footer_things {
+    margin-top: 3%;
+    /*margin-left: 2%; */
+    padding-right: 8%;
+    /*background-color: #000000; */
+  }
+
+  .footer_things p {
+    padding-left: 20%;
+    font-size: 16px;
+  }
+
   #contact {
     padding-top: 4%;
     padding-bottom: 2%;
@@ -211,8 +249,10 @@
 
   #contact p {
     color: #4F9FF8;
-    font-size: 48px;
+    font-size: 28px;
   }
+
+
 
 
 
