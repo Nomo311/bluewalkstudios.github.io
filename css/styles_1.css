@@ -8,7 +8,7 @@
     height: 130%;
     width: 100%;
     /*height: 1214px;*/
-    background-color: #232834;
+    background-color: #999999;
     background-image: url("/prototype.2024/images/webColor_pal.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -118,6 +118,7 @@
     */
     text-align: center;
     background-color: #232834;
+    /*background-color: #999999;*/
     color: #1F6CD5;
   }
 
